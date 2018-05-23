@@ -1,0 +1,10 @@
+facts = [
+    { "id": 1 , "fact": "There are two types of camels: dromedary and bactrian."},
+    { "id": 2 , "fact": "Dromedary camels have 1 hump while bactrain camels have 2."},
+    { "id": 3 , "fact": "The dromedary camel was \"domesticated\" in 3000–2000 BCE in Arabia."},
+    { "id": 4 , "fact": "The bactrain camel was \"domesticated\" around 4000 BCE in Central Asia."},
+    { "id": 5 , "fact": "Camels are still used a primary means to transport goods in Northern Africa today."},
+    { "id": 6 , "fact": "Although truely wild dromedary camels are extint, there is a ferral population in Australia."},
+    { "id": 7 , "fact": "Camels do not actually walk on their hooves. They have 2 webbed toes that spread out in order to walk over sand."}
+  ]
+;

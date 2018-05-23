@@ -1,7 +1,31 @@
 <!doctype html>
 <head>
+  <meta charset="utf-8">
   <title>Camel Facts</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel=stylesheet type=text/css href="resources/css/style.css">
+  <script src="vendors/jquery-3.3.1.min.js"></script>
+  <script src="resources/data/facts.json"></script>
 </head>
 <body>
-  <h1>Camel Facts</h1>
+    <header>
+      <h1>Fun Camel Facts!</h1>
+      <p>Please enjoy some camel facts.</p>
+    </header>
+    <section class="facts">
+  </section>
+  <section class="add_form">
+    <h2>Add A New Fact!</h2>
+    <form action="javascript:alert( 'Added fact' );">
+      <dl>
+      <dt><textarea  spellcheck="true" rows="4" cols="50" placeholder="Enter new fact here" required></textarea><br/>
+      <dd> <input type="submit" value="Add Fact!"/>
+    </dl>
+  </form>
+  </section>
+  <footer>
+    <p>Made by <a href="https://github.com/cfrieden">cfrieden</a></p>
+
+  </footer>
 </body>
+<script src="resources/js/load.js"></script>
